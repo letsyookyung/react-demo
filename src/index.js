@@ -7,6 +7,10 @@ import reportWebVitals from './reportWebVitals';
 import Library from "./ chapter_03/Library";
 import Clock from "./chapter_04/clock";
 import CommentList from "./chapter_05/CommentList";
+import Accommodate from "./chapter_07/Accommodate"
+import ConfirmButton from "./chapter_08/ConfirmButton";
+import Toolbar from "./chapter_09/Toolbar";
+import LandingPage from "./chapter_09/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,7 +33,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // }, 1000);
 ReactDOM.render(
         <React.StrictMode>
-            <CommentList />
+            {/*<CommentList />*/}
+            {/*<Accommodate />*/}
+            {/*<ConfirmButton />*/}
+            <LandingPage />
         </React.StrictMode>,
     document.getElementById('root')
 );
